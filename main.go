@@ -9,7 +9,7 @@ import (
 func main() {
 	// Define routes
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello World from deployment kick 1")
+		fmt.Fprintf(w, "Hello World from deployment kick 2")
 	})
 
 	http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
